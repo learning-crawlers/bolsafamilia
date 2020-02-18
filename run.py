@@ -79,7 +79,7 @@ def download_file(url):
                     {ms_competncia}{uf}{cdigo_municpio_siafi}{nis_favorecido}\
                     {valor_parcela}'.encode('utf-8')).hexdigest()
                 
-                file_json = f'{BSAFML_ROOT}/data/{hash}.json'.lower()
+                file_json = f'{BSAFML_ROOT}/data/{hash.lower()}.json'
 
                 # save file 
                 with open(file_json, mode="w") as f:
