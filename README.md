@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/learning-crawlers/bolsafamilia.svg)](http://hits.dwyl.com/learning-crawlers/bolsafamilia)
+
 # Bolsa Familia
 Extração de dados com Requests para listar brasileiros do Bolsa Família
 
